@@ -1,0 +1,19 @@
+{
+  "name": "dannyweb",
+  "version": "1.0.0",
+  "description": "danny website",
+  "main": "index.js",
+  "scripts": {
+    "test": "testtesttest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannyndang/website.git"
+  },
+  "author": "danny dang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannyndang/website/issues"
+  },
+  "homepage": "https://github.com/dannyndang/website#readme"
+}
