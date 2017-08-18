@@ -129,11 +129,6 @@ h1 { font-size: 2.4rem; }
 }
 
 
-
-
-
-
-
 .btn {
   display: inline-block;
   font-weight: normal;
@@ -145,12 +140,15 @@ h1 { font-size: 2.4rem; }
       -ms-user-select: none;
           user-select: none;
   border: 2px solid transparent;
-  padding: 0.5rem 0.75rem;
+  padding: 0.4rem 0.75rem;
   font-size: 1rem;
-  font-weight:500;
+
   line-height: 1.25;
   border-radius: 0rem;
   transition: all 0.15s ease-in-out;
+
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight:600;
 }
 
 .btn-primary {
@@ -166,7 +164,7 @@ h1 { font-size: 2.4rem; }
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 1);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
@@ -176,7 +174,7 @@ h1 { font-size: 2.4rem; }
 
 .btn-primary:active, .btn-primary.active,
 .show > .btn-primary.dropdown-toggle {
-  background-color: #0069d9;
+  background-color: #000;
   background-image: none;
-  border-color: #0062cc;
+  border-color: #000;
 }
