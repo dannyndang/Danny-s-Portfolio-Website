@@ -1,6 +1,6 @@
 body, html {
     height: 100%;
-	background-color: #efefef;
+	background-color: #fff;
 }
 
 /* font balancing for entire web page
@@ -9,14 +9,30 @@ body { font-size: 1.4rem;}
 h1 { font-size: 2.4rem; }
 */
 
+.divider {
+  margin-top: 1.5rem !important;
+  margin-bottom: 2.5rem !important;
+  border-color:black;
+  opacity:0.5;
+  max-width:60%;
+}
+
+.bg-black {
+  background-color: #000000 !important;
+}
+
+.sectionPaddingTop {
+	margin-top:50px;
+}
+
 .hero {
 	background: url("/images/sf2.jpg");
+	opacity: 0.95;
 	background-repeat:no-repeat;
 	background-size: cover;
 	height: 100vh;
 	position:relative;
 }
-
 
 .hero-text {
 	text-align: center;
@@ -25,18 +41,35 @@ h1 { font-size: 2.4rem; }
 	left:50%;
 	transform:translate(-50%,-50%);
 	color: #fff;
-	font-family: "Verdana", sans-serif;
 }
-
 
 .hero-name {
 	font-size: 5vmax;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 10px;
+	margin:0;
 }
 
 .hero-sub {
 	font-size: 2vmax;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 150%;
+	letter-spacing: 3px;
+	font-style: italic;
+	font-weight:200;
 }
 
+.aboutHello {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size:25px;
+	letter-spacing:3px;
+}
+
+.infoText {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 400;
+}
 
 .animatedName {
   animation-duration: 2s;
