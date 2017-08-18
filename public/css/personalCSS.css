@@ -69,8 +69,17 @@ h1 { font-size: 2.4rem; }
 .infoText {
 	font-family: 'Nunito Sans', sans-serif;
 	font-weight: 400;
+	margin-bottom: 50px;
 }
 
+.resPort {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+
+ 
 .animatedName {
   animation-duration: 2s;
   animation-fill-mode: both;
@@ -117,4 +126,57 @@ h1 { font-size: 2.4rem; }
 
 .fadeInUpSub {
   animation-name: fadeInUpSub;
+}
+
+
+
+
+
+
+
+.btn {
+  display: inline-block;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: 2px solid transparent;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  font-weight:500;
+  line-height: 1.25;
+  border-radius: 0rem;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn-primary {
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: #fff;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:active, .btn-primary.active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #0069d9;
+  background-image: none;
+  border-color: #0062cc;
 }
