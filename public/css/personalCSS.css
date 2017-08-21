@@ -30,6 +30,15 @@ h1 { font-size: 2.4rem; }
 	padding-top:50px;
 }
 
+.padTop3 {
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+
+.padBot {
+	margin-bottom: 50px;
+}
+
 .sectionHeader {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
@@ -234,7 +243,6 @@ h1 { font-size: 2.4rem; }
 
 .progchamp {
 	background-image:url('/images/philanthrobot.png');
-	
 }
 
 .philanthro {
@@ -245,11 +253,34 @@ h1 { font-size: 2.4rem; }
 	background-image:url('/images/PGorange.png');
 }
 
+.linkedin {
+	background-image:url('/images/sqINicon.png');
+}
+
+.email {
+	background-image:url('/images/sqEmailicon.png');
+}
+
+.github {
+	background-image:url('/images/sqGHicon.png');
+}
+
 .square {
 	margin-left:auto;
 	margin-right:auto;
 	width:90%;
 	padding-bottom: 90%;
+	background-size:cover;
+	transition: all .1s ease-out;
+	display:block;
+	position: relative;
+}
+
+.square2 {
+	margin-left:auto;
+	margin-right:auto;
+	width:75%;
+	padding-bottom: 75%;
 	background-size:cover;
 	transition: all .1s ease-out;
 	display:block;
@@ -320,7 +351,16 @@ h1 { font-size: 2.4rem; }
 */
 
 
+/* hover change image effect 
+#Library {
+   background-image: url('/images/reverseGH.png');
+   height: 70px;
+   width: 120px;
+}
 
-
-
-
+#Library:hover {
+	width:50%;
+	padding-bottom: 50%;
+   background-image: url('/images/sqGHicon.png');
+}
+*/
