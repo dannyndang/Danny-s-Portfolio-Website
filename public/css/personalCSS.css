@@ -22,12 +22,22 @@ h1 { font-size: 2.4rem; }
   background-color: #000000 !important;
 }
 
-.sectionPaddingTop {
-	margin-top:50px;
+.padTop {
+	padding-top:50px;
 }
 
-.sectionPaddingTop2 {
-	margin-top:75px;
+.padTop2 {
+	padding-top:50px;
+}
+
+.sectionHeader {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size:20px;
+	letter-spacing:3px;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 45px;
 }
 
 .hero {
@@ -66,15 +76,6 @@ h1 { font-size: 2.4rem; }
 	letter-spacing: 3px;
 	font-style: italic;
 	font-weight:200;
-}
-
-.sectionHeader {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
-	font-size:20px;
-	letter-spacing:3px;
-	text-align: center;
-	margin-bottom: 40px;
 }
 
 .infoText {
@@ -197,6 +198,7 @@ h1 { font-size: 2.4rem; }
 .bgBlack {
 	background-color: #000;
 }
+
 .container-fluid2 {
 	overflow:auto;
 }
@@ -316,6 +318,9 @@ h1 { font-size: 2.4rem; }
 }
 
 */
+
+
+
 
 
 
